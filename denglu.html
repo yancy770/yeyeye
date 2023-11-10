@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			
+		body{
+			width: 640px;
+			height: 1030px;
+			 background-image:url("微信图片_20231110063512.jpg");
+			 background-repeat: no-repeat;
+			 background-size: 640px 1030px;
+			 background-position-x:50%;
+			 background-position-y:100%;
+			 margin: 0 auto;
+			 }
+			 
+			         .form-container {
+			                  background-color: rgba(128, 128, 128, 0.5); /* 透明的灰色背景 */
+			                  padding: 20px;
+			                  width: 300px;
+			                  margin: 0 auto;
+			                  border-radius: 10px;
+							  position: relative;
+							  top:35%;
+							  color: aliceblue;
+			              }
+						  
+							#neon {
+								margin-left: 60px;
+								margin-top:30px;
+								text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px grey, 0 0 70px #6AB5FF, 0 0 80px #6AB5FF, 0 0 100px #6AB5FF, 0 0 150px #6AB5FF;
+							}	
+								
+	 </style>
+	</head>
+	<body>
+		
+		<div class="form-container">
+		        <form action="/submit_form" method="post">
+		            <label for="winemaker">制酒师昵称：</label>
+		            <input type="text" id="winemaker" name="winemaker"><br><br>
+		
+		            <label for="winemaker">酒产品名称：</label>
+		            <input type="text" id="wine_name" name="wine_name"><br><br>
+		
+		             <label for="winemaker">酒产品定价：</label>
+		            <input type="text" id="price" name="price"><br><br>
+					点击按钮：
+		                <a href="https://yancy770.github.io/nininini/web.html">
+		                 <input type="button" value=提交>
+						 </a>
+		        </form></div>
+				
+				<div id="neon"><font size="55" face="华文行楷">制作专属于你的茅台酒</font></div>
+
+				  
+					
+	</body>
+</html>
